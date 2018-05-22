@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "HotFixMightCrash.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    [self crashDemo];
 }
 
 
@@ -25,5 +27,13 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (void)crashDemo {
+    HotFixMightCrash *mightCrash = [[HotFixMightCrash alloc] init];
+    NSInteger result = [mightCrash divideUsingDenominator:3];
+    NSLog(@"result = %.3ld", (long)result);
+    
+    result = [mightCrash divideUsingDenominator:0];
+    NSLog(@"result = %.3ld", (long)result);
+}
 
 @end
