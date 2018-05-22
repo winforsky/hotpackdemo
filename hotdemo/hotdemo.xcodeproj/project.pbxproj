@@ -12,6 +12,7 @@
 		672B45FE20B3F4A200A9EF82 /* HotFixMightCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B45FD20B3F4A100A9EF82 /* HotFixMightCrash.m */; };
 		672B460120B3F54200A9EF82 /* HotFixFelix.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460020B3F54100A9EF82 /* HotFixFelix.m */; };
 		672B460420B3F55800A9EF82 /* HotFixService.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460320B3F55800A9EF82 /* HotFixService.m */; };
+		672B460820B409A600A9EF82 /* HotFixBookAudioService.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460720B409A600A9EF82 /* HotFixBookAudioService.m */; };
 		6757F27820B3EE8D0016F7C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6757F27720B3EE8D0016F7C3 /* AppDelegate.m */; };
 		6757F27B20B3EE8D0016F7C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6757F27A20B3EE8D0016F7C3 /* ViewController.m */; };
 		6757F27E20B3EE8D0016F7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6757F27C20B3EE8D0016F7C3 /* Main.storyboard */; };
@@ -52,6 +53,8 @@
 		672B460020B3F54100A9EF82 /* HotFixFelix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotFixFelix.m; sourceTree = "<group>"; };
 		672B460220B3F55800A9EF82 /* HotFixService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotFixService.h; sourceTree = "<group>"; };
 		672B460320B3F55800A9EF82 /* HotFixService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotFixService.m; sourceTree = "<group>"; };
+		672B460620B409A600A9EF82 /* HotFixBookAudioService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotFixBookAudioService.h; sourceTree = "<group>"; };
+		672B460720B409A600A9EF82 /* HotFixBookAudioService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotFixBookAudioService.m; sourceTree = "<group>"; };
 		6757F27320B3EE8C0016F7C3 /* hotdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6757F27620B3EE8D0016F7C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6757F27720B3EE8D0016F7C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -118,6 +121,7 @@
 		672B45FB20B3F49200A9EF82 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				672B460520B4098D00A9EF82 /* audiobook */,
 				672B45FF20B3F54100A9EF82 /* HotFixFelix.h */,
 				672B460020B3F54100A9EF82 /* HotFixFelix.m */,
 				672B45FC20B3F4A100A9EF82 /* HotFixMightCrash.h */,
@@ -126,6 +130,15 @@
 				672B460320B3F55800A9EF82 /* HotFixService.m */,
 			);
 			path = Code;
+			sourceTree = "<group>";
+		};
+		672B460520B4098D00A9EF82 /* audiobook */ = {
+			isa = PBXGroup;
+			children = (
+				672B460620B409A600A9EF82 /* HotFixBookAudioService.h */,
+				672B460720B409A600A9EF82 /* HotFixBookAudioService.m */,
+			);
+			path = audiobook;
 			sourceTree = "<group>";
 		};
 		6757F26A20B3EE8C0016F7C3 = {
@@ -475,6 +488,7 @@
 				6757F27B20B3EE8D0016F7C3 /* ViewController.m in Sources */,
 				672B460420B3F55800A9EF82 /* HotFixService.m in Sources */,
 				672B45FE20B3F4A200A9EF82 /* HotFixMightCrash.m in Sources */,
+				672B460820B409A600A9EF82 /* HotFixBookAudioService.m in Sources */,
 				6757F28620B3EE8E0016F7C3 /* main.m in Sources */,
 				672B460120B3F54200A9EF82 /* HotFixFelix.m in Sources */,
 				6757F27820B3EE8D0016F7C3 /* AppDelegate.m in Sources */,
