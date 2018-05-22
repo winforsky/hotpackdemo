@@ -10,6 +10,8 @@
 		1DB1737D741955332613A0C8 /* libPods-hotdemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F44EF37F9291B8472F2A09A4 /* libPods-hotdemoUITests.a */; };
 		41DE47701A4C2ED1E334BEBC /* libPods-hotdemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2145F7E0DB876FCC1DECB986 /* libPods-hotdemo.a */; };
 		672B45FE20B3F4A200A9EF82 /* HotFixMightCrash.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B45FD20B3F4A100A9EF82 /* HotFixMightCrash.m */; };
+		672B460120B3F54200A9EF82 /* HotFixFelix.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460020B3F54100A9EF82 /* HotFixFelix.m */; };
+		672B460420B3F55800A9EF82 /* HotFixService.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460320B3F55800A9EF82 /* HotFixService.m */; };
 		6757F27820B3EE8D0016F7C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6757F27720B3EE8D0016F7C3 /* AppDelegate.m */; };
 		6757F27B20B3EE8D0016F7C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6757F27A20B3EE8D0016F7C3 /* ViewController.m */; };
 		6757F27E20B3EE8D0016F7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6757F27C20B3EE8D0016F7C3 /* Main.storyboard */; };
@@ -46,6 +48,10 @@
 		4080453E7012F01B1E477225 /* Pods-hotdemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-hotdemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-hotdemoUITests/Pods-hotdemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		672B45FC20B3F4A100A9EF82 /* HotFixMightCrash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotFixMightCrash.h; sourceTree = "<group>"; };
 		672B45FD20B3F4A100A9EF82 /* HotFixMightCrash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotFixMightCrash.m; sourceTree = "<group>"; };
+		672B45FF20B3F54100A9EF82 /* HotFixFelix.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotFixFelix.h; sourceTree = "<group>"; };
+		672B460020B3F54100A9EF82 /* HotFixFelix.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotFixFelix.m; sourceTree = "<group>"; };
+		672B460220B3F55800A9EF82 /* HotFixService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotFixService.h; sourceTree = "<group>"; };
+		672B460320B3F55800A9EF82 /* HotFixService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotFixService.m; sourceTree = "<group>"; };
 		6757F27320B3EE8C0016F7C3 /* hotdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6757F27620B3EE8D0016F7C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6757F27720B3EE8D0016F7C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -112,8 +118,12 @@
 		672B45FB20B3F49200A9EF82 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				672B45FF20B3F54100A9EF82 /* HotFixFelix.h */,
+				672B460020B3F54100A9EF82 /* HotFixFelix.m */,
 				672B45FC20B3F4A100A9EF82 /* HotFixMightCrash.h */,
 				672B45FD20B3F4A100A9EF82 /* HotFixMightCrash.m */,
+				672B460220B3F55800A9EF82 /* HotFixService.h */,
+				672B460320B3F55800A9EF82 /* HotFixService.m */,
 			);
 			path = Code;
 			sourceTree = "<group>";
@@ -463,8 +473,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				6757F27B20B3EE8D0016F7C3 /* ViewController.m in Sources */,
+				672B460420B3F55800A9EF82 /* HotFixService.m in Sources */,
 				672B45FE20B3F4A200A9EF82 /* HotFixMightCrash.m in Sources */,
 				6757F28620B3EE8E0016F7C3 /* main.m in Sources */,
+				672B460120B3F54200A9EF82 /* HotFixFelix.m in Sources */,
 				6757F27820B3EE8D0016F7C3 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
