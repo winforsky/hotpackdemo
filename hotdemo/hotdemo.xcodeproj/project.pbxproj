@@ -13,6 +13,12 @@
 		672B460120B3F54200A9EF82 /* HotFixFelix.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460020B3F54100A9EF82 /* HotFixFelix.m */; };
 		672B460420B3F55800A9EF82 /* HotFixService.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460320B3F55800A9EF82 /* HotFixService.m */; };
 		672B460820B409A600A9EF82 /* HotFixBookAudioService.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460720B409A600A9EF82 /* HotFixBookAudioService.m */; };
+		672B460C20B567A000A9EF82 /* HotFixSpriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460B20B567A000A9EF82 /* HotFixSpriteViewController.m */; };
+		672B461020B567E100A9EF82 /* HelloScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B460F20B567E100A9EF82 /* HelloScene.m */; };
+		672B461220B5698B00A9EF82 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 672B461120B5698A00A9EF82 /* SpriteKit.framework */; };
+		672B46A820B6652E00A9EF82 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 672B46A420B6652D00A9EF82 /* GameScene.sks */; };
+		672B46A920B6652E00A9EF82 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 672B46A620B6652D00A9EF82 /* Actions.sks */; };
+		672B46AA20B6652E00A9EF82 /* GameScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 672B46A720B6652D00A9EF82 /* GameScene.m */; };
 		6757F27820B3EE8D0016F7C3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6757F27720B3EE8D0016F7C3 /* AppDelegate.m */; };
 		6757F27B20B3EE8D0016F7C3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6757F27A20B3EE8D0016F7C3 /* ViewController.m */; };
 		6757F27E20B3EE8D0016F7C3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6757F27C20B3EE8D0016F7C3 /* Main.storyboard */; };
@@ -55,6 +61,15 @@
 		672B460320B3F55800A9EF82 /* HotFixService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotFixService.m; sourceTree = "<group>"; };
 		672B460620B409A600A9EF82 /* HotFixBookAudioService.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotFixBookAudioService.h; sourceTree = "<group>"; };
 		672B460720B409A600A9EF82 /* HotFixBookAudioService.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotFixBookAudioService.m; sourceTree = "<group>"; };
+		672B460A20B567A000A9EF82 /* HotFixSpriteViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HotFixSpriteViewController.h; sourceTree = "<group>"; };
+		672B460B20B567A000A9EF82 /* HotFixSpriteViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HotFixSpriteViewController.m; sourceTree = "<group>"; };
+		672B460E20B567E100A9EF82 /* HelloScene.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloScene.h; sourceTree = "<group>"; };
+		672B460F20B567E100A9EF82 /* HelloScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloScene.m; sourceTree = "<group>"; };
+		672B461120B5698A00A9EF82 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		672B46A420B6652D00A9EF82 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		672B46A520B6652D00A9EF82 /* GameScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameScene.h; sourceTree = "<group>"; };
+		672B46A620B6652D00A9EF82 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		672B46A720B6652D00A9EF82 /* GameScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameScene.m; sourceTree = "<group>"; };
 		6757F27320B3EE8C0016F7C3 /* hotdemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hotdemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6757F27620B3EE8D0016F7C3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		6757F27720B3EE8D0016F7C3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -82,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672B461220B5698B00A9EF82 /* SpriteKit.framework in Frameworks */,
 				41DE47701A4C2ED1E334BEBC /* libPods-hotdemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -121,6 +137,7 @@
 		672B45FB20B3F49200A9EF82 /* Code */ = {
 			isa = PBXGroup;
 			children = (
+				672B460920B5678E00A9EF82 /* sprite */,
 				672B460520B4098D00A9EF82 /* audiobook */,
 				672B45FF20B3F54100A9EF82 /* HotFixFelix.h */,
 				672B460020B3F54100A9EF82 /* HotFixFelix.m */,
@@ -139,6 +156,29 @@
 				672B460720B409A600A9EF82 /* HotFixBookAudioService.m */,
 			);
 			path = audiobook;
+			sourceTree = "<group>";
+		};
+		672B460920B5678E00A9EF82 /* sprite */ = {
+			isa = PBXGroup;
+			children = (
+				672B460D20B567CE00A9EF82 /* scene */,
+				672B460A20B567A000A9EF82 /* HotFixSpriteViewController.h */,
+				672B460B20B567A000A9EF82 /* HotFixSpriteViewController.m */,
+			);
+			path = sprite;
+			sourceTree = "<group>";
+		};
+		672B460D20B567CE00A9EF82 /* scene */ = {
+			isa = PBXGroup;
+			children = (
+				672B46A620B6652D00A9EF82 /* Actions.sks */,
+				672B46A520B6652D00A9EF82 /* GameScene.h */,
+				672B46A720B6652D00A9EF82 /* GameScene.m */,
+				672B46A420B6652D00A9EF82 /* GameScene.sks */,
+				672B460E20B567E100A9EF82 /* HelloScene.h */,
+				672B460F20B567E100A9EF82 /* HelloScene.m */,
+			);
+			path = scene;
 			sourceTree = "<group>";
 		};
 		6757F26A20B3EE8C0016F7C3 = {
@@ -201,6 +241,7 @@
 		E353B718356B0080D6551EF4 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				672B461120B5698A00A9EF82 /* SpriteKit.framework */,
 				2145F7E0DB876FCC1DECB986 /* libPods-hotdemo.a */,
 				34894DE8DCE34656A1FFCCD8 /* libPods-hotdemoTests.a */,
 				F44EF37F9291B8472F2A09A4 /* libPods-hotdemoUITests.a */,
@@ -320,9 +361,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				672B46A820B6652E00A9EF82 /* GameScene.sks in Resources */,
 				6757F28320B3EE8E0016F7C3 /* LaunchScreen.storyboard in Resources */,
 				6757F28020B3EE8E0016F7C3 /* Assets.xcassets in Resources */,
 				6757F27E20B3EE8D0016F7C3 /* Main.storyboard in Resources */,
+				672B46A920B6652E00A9EF82 /* Actions.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -486,12 +529,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				6757F27B20B3EE8D0016F7C3 /* ViewController.m in Sources */,
+				672B461020B567E100A9EF82 /* HelloScene.m in Sources */,
+				672B46AA20B6652E00A9EF82 /* GameScene.m in Sources */,
 				672B460420B3F55800A9EF82 /* HotFixService.m in Sources */,
 				672B45FE20B3F4A200A9EF82 /* HotFixMightCrash.m in Sources */,
 				672B460820B409A600A9EF82 /* HotFixBookAudioService.m in Sources */,
 				6757F28620B3EE8E0016F7C3 /* main.m in Sources */,
 				672B460120B3F54200A9EF82 /* HotFixFelix.m in Sources */,
 				6757F27820B3EE8D0016F7C3 /* AppDelegate.m in Sources */,
+				672B460C20B567A000A9EF82 /* HotFixSpriteViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

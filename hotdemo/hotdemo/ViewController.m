@@ -9,7 +9,7 @@
 #import "ViewController.h"
 #import "HotFixMightCrash.h"
 #import "HotFixBookAudioService.h"
-
+#import "HotFixSpriteViewController.h"
 @interface ViewController ()
 
 @end
@@ -28,6 +28,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+- (IBAction)openSpriteVC:(id)sender {
+    HotFixSpriteViewController *destVC = [[HotFixSpriteViewController alloc] init];
+    [self.navigationController pushViewController:destVC animated:YES];
+}
+
 
 - (void)crashDemo {
     HotFixMightCrash *mightCrash = [[HotFixMightCrash alloc] init];
